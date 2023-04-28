@@ -1,0 +1,11 @@
+Essensvorschläge App
+
+2 Seiten -> Erstellen | Sehen
+
+1. Seite -> Erstellen
+    Input: Name, Essen, Datum
+        Button: POST data
+
+2. Seite -> Sehen
+    get data from database
+        $.push

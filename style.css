@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+}
+
+#create {
+    background-color: rgb(209, 20, 77);
+    color: white;
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#see {
+    background-color: #3eff72;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+}
+
+.suggestion {
+    position: relative;
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px;
+    height: 100px;
+}
+
+.name {
+    color: rgba(255, 255, 255, 0.825);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.food {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    position: relative;
+    top: 1px;
+}
+
+.date {
+    position: relative;
+    top: -20px;
+    text-align: right;
+}
+
+#refresh {
+    width: 40px;
+}
+
